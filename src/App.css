@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.container input {
+  padding: 10px 3px;
+  width: 320px;
+  color: #111;
+}
+
+.container button {
+  padding: 10px 3px;
+  width: 320px;
+  border: 0;
+  background: blue;
+  color: black;
+  font-size: 21px;
+  cursor: pointer;
+}
